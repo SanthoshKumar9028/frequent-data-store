@@ -1,0 +1,11 @@
+export const {
+  DB_NAME,
+  DB_VERSION,
+  GROUP_COLLECTION_NAME,
+  SNIPPET_CATEGORY_COLLECTION_NAME,
+} = {
+  DB_NAME: "frequent-snippets",
+  DB_VERSION: 2,
+  GROUP_COLLECTION_NAME: "groups",
+  SNIPPET_CATEGORY_COLLECTION_NAME: "snippet-category",
+};
