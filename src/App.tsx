@@ -55,6 +55,7 @@ function App() {
         .then((responses) => {
           setDBState("ready");
           setGlobalState({
+            idb: openRequest.result,
             groupStore,
             snippetCategoryStore,
             groups: responses[0],

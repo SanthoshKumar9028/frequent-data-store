@@ -8,6 +8,7 @@ export interface IGlobalStores {
 }
 
 export interface IGlobalProviderState extends IGlobalStores {
+  idb?: IDBDatabase;
   groups: IGroup[];
   snippetCategories: ISnippetCategory[];
   loadGroups: () => Promise<IGroup[]>;

@@ -15,5 +15,6 @@ export interface ISnippet {
 
 export interface ISnippetCategory {
   name: string;
+  expand?: boolean;
   snippets: ISnippet[];
 }
